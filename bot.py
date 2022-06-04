@@ -71,7 +71,7 @@ async def on_ready():
 @client.command()
 async def conflicts(ctx):
     
-    if ctx.author.nick == "Mehir":
+    if ctx.author.name == "thundertornader#5399":
         
         channel = await ctx.author.create_dm()
         await channel.send(file=discord.File('./conflicts.txt'))
