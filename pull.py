@@ -8,7 +8,7 @@ class Pull:
         self.sheet_name = "2021-2022 Robotics Team Signup(responses)"
         self.url = f"https://docs.google.com/spreadsheets/d/1Duo8OpvQAtJEO7y6_gsfykl77wUpi8IkVNyr1Yt4L1I/edit#gid=1524028929"
         
-
+        
 
 
     def return_data(self):
