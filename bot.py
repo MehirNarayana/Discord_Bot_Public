@@ -15,4 +15,4 @@ ws = sh.worksheet('Sheet1')
 
 df = pd.DataFrame(ws.get_all_records())
 
-print(df)
+print(pd.DataFrame(df, columns=['First Name', 'Last Name', 'Best Email to contact you with.']))
