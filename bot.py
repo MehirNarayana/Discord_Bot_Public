@@ -47,6 +47,8 @@ async def write_file():
                 if row_nickname in disc_nickname and row_id==disc_id:
                     
                     rows.remove(r)
+                    
+                    
 
         currtime = datetime.now()    
         conflicts = [[str(currtime.strftime("%m/%d/%Y, %H:%M:%S"))], [rows]]
@@ -71,7 +73,7 @@ async def on_ready():
 @client.command()
 async def conflicts(ctx):
     
-    if ctx.author.name == "thundertornader#5399":
+    if ctx.author.name == "thundertornader" or ctx.author.nick== "Mehir Narayana" or ctx.author.name== "Specops921" or ctx.author.nick == "Awtz" or ctx.author.name == "Brianwong"or ctx.author.name == "Mr Blenman":
         
         channel = await ctx.author.create_dm()
         await channel.send(file=discord.File('./conflicts.txt'))
