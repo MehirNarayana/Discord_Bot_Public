@@ -5,12 +5,12 @@ from discord.ext import commands
 import asyncio 
 from itertools import cycle
 import json
-
+from token import Token
 import simplejson
 
 
 data = Pull()
-
+token = Token()
 
 
 
@@ -81,7 +81,7 @@ async def conflicts(ctx):
 
 
 client.loop.create_task(write_file())
-client.run('a token')
+client.run(token.return_token)
 
 
 
