@@ -73,7 +73,7 @@ async def on_ready():
 @client.command()
 async def conflicts(ctx):
     
-    if ctx.author.name == "thundertornader" or ctx.author.nick== "Mehir Narayana" or ctx.author.name== "Specops921" or ctx.author.nick == "Awtz" or ctx.author.name == "Brianwong"or ctx.author.name == "Mr Blenman":
+    if ctx.author.name == "sdhjfgsdjfghdjk" or ctx.author.nick== "jfgljdfl" or ctx.author.name== "gdfhjdjfghdf" or ctx.author.nick == "sjdhsfkd" or ctx.author.name == "djkfhsdfkhsdf"or ctx.author.name == "dsjflsdfkjsfd":
         
         channel = await ctx.author.create_dm()
         await channel.send(file=discord.File('./conflicts.txt'))
@@ -81,7 +81,7 @@ async def conflicts(ctx):
 
 
 client.loop.create_task(write_file())
-client.run('OTgyNjc4MjUyNTQxODcwMTEw.GpAEVK.Wo1b3HgSSh3vfC6A-mt8VxnJMAssdUq3Jf6n0U')
+client.run('a token')
 
 
 
